@@ -1,5 +1,5 @@
 public class Car extends Handler{
-    private int value;
+    private final int value;
 
     public Car(int value) {
         this.value = value;

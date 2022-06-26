@@ -1,5 +1,5 @@
 public class Train extends Handler{
-    private int value;
+    private final int value;
 
     public Train(int value) {
         this.value = value;

@@ -1,5 +1,5 @@
 public class Bus extends Handler{
-    private int value;
+    private final int value;
 
     public Bus(int value) {
         this.value = value;

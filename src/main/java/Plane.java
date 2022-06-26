@@ -1,5 +1,5 @@
 public class Plane extends Handler{
-    private int value;
+    private final int value;
 
     public Plane(int value) {
         this.value = value;
@@ -9,6 +9,5 @@ public class Plane extends Handler{
         if (value <= budget) {
             System.out.println(this.getClass().getName());
         }
-        return;
     }
 }
